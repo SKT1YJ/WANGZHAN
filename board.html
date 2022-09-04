@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="zxx" class="no-js">
+
+<head>
+    <!-- Mobile Specific Meta -->
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0,minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <!-- Favicon-->
+    <link rel="shortcut icon" href="img/fav.png">
+    <!-- Author Meta -->
+    <meta name="author" content="colorlib">
+    <!-- Meta Description -->
+    <meta name="description" content="">
+    <!-- Meta Keyword -->
+    <meta name="keywords" content="">
+    <!-- Meta Character Set -->
+    <meta charset="UTF-8">
+    <!-- Site Title -->
+    <title>Board</title>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,600,700,900" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/linearicons.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/nice-select.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+<!-- Start Header Area -->
+<header id="header" class="dark">
+    <div class="container main-menu">
+        <div class="row align-items-center d-flex">
+            <div id="logo">
+                <a href="index.html"><img src="img/logo.png" alt="" title=""/></a>
+            </div>
+            <nav id="nav-menu-container" class="ml-auto">
+                <ul class="nav-menu white">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="photo.html">Photo</a></li>
+                    <li><a href="blog-home.html">Blog</a></li>
+                    <li><a class="active" href="board.html">Board</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</header>
+<!-- End Header Area -->
+<!-- Start Banner Area -->
+<section class="banner-area relative">
+    <div class="container">
+        <div class="row d-flex align-items-center justify-content-center">
+            <div class="about-content col-lg-12">
+                <h1 class="text-white">
+                    Message Board
+                </h1>
+                <p class="link-nav">
+                        <span class="box">
+                            <a href="index.html">Home </a>
+                            <a href="board.html">Board</a>
+                        </span>
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End Banner Area -->
+<!-- Start Post-content Area -->
+<section class="post-content-area single-post-area section-gap">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="comments-area posts-list">
+                    <h4>Messages</h4>
+                    <div class="comment-list">
+                        <div class="single-comment justify-content-between d-flex">
+                            <div class="user justify-content-between d-flex">
+                                <div id="desc"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="comment-form">
+                    <h4>Leave a Message</h4>
+                    <form class="form-area " id="myForm" action="" method="post">
+                        <div class="form-group form-inline">
+                            <div class="form-group name">
+                                <input type="text" class="form-control" id="name" placeholder="Enter Nickname"
+                                       onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Nickname'"
+                                       required=""/>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control mb-10" rows="5" id="comment" placeholder="Message"
+                                      onfocus="this.placeholder = ''" onblur="this.placeholde = 'Message'"
+                                      required=""></textarea>
+                        </div>
+                        <button class="primary-btn" data-text="Post Message" onclick="postComment();">
+                            <span>P</span>
+                            <span>o</span>
+                            <span>s</span>
+                            <span>t</span>
+                            <span> </span>
+                            <span>M</span>
+                            <span>e</span>
+                            <span>s</span>
+                            <span>s</span>
+                            <span>a</span>
+                            <span>g</span>
+                            <span>e</span>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End Post-content Area -->
+<!-- Horizontal Bar -->
+<div class="container">
+    <hr>
+</div>
+<!-- Start Footer Area -->
+<footer class="footer-area">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-12">
+                <div class="footer-top flex-column">
+                    <div class="footer-logo">
+                        <a href="index.html">
+                            <img src="img/logo.png" alt="">
+                        </a>
+                        <h4>Follow Me</h4>
+                    </div>
+                    <div class="footer-social">
+                        <a href="https://www.facebook.com/profile.php?id=100011429485393" target="_blank"><i
+                                class="fa fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/mr.narcissus24/" target="_blank"><i
+                                class="fa fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/yangjing24/" target="_blank"><i class="fa fa-linkedin"></i></a>
+                        <a href="https://github.com/SKT1YJ" target="_blank"><i class="fa fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row footer-bottom justify-content-center">
+            <p class="col-lg-8 col-sm-12 footer-text">
+                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                Copyright &copy;<script>
+                document.write(new Date().getFullYear());
+            </script>
+                All rights reserved. <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            </p>
+        </div>
+    </div>
+</footer>
+<!-- End Footer Area -->
+<!-- ####################### Start Scroll to Top Area ####################### -->
+<div id="back-top">
+    <a title="Go to Top" href="#">
+        <i class="lnr lnr-arrow-up"></i>
+    </a>
+</div>
+<!-- ####################### End Scroll to Top Area ####################### -->
+<script src="js/vendor/jquery-2.2.4.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+<script src="js/vendor/bootstrap.min.js"></script>
+<script type="text/javascript"
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhOdIF3Y9382fqJYt5I_sswSrEw5eihAA"></script>
+<script src="js/easing.min.js"></script>
+<script src="js/hoverIntent.js"></script>
+<script src="js/superfish.min.js"></script>
+<script src="js/mn-accordion.js"></script>
+<script src="js/jquery.ajaxchimp.min.js"></script>
+<script src="js/jquery.magnific-popup.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/jquery.nice-select.min.js"></script>
+<script src="js/isotope.pkgd.min.js"></script>
+<script src="js/jquery.circlechart.js"></script>
+<script src="js/mail-script.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/main.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-database.js"></script>
+<script>
+    const firebaseConfig = {
+        apiKey: "AIzaSyCCESk79iTfRs-IqB6f9U3L1UA-ts0mJps",
+        authDomain: "personal-website-91684.firebaseapp.com",
+        databaseURL: "https://personal-website-91684-default-rtdb.asia-southeast1.firebasedatabase.app",
+        projectId: "personal-website-91684",
+        storageBucket: "personal-website-91684.appspot.com",
+        messagingSenderId: "439756172618",
+        appId: "1:439756172618:web:7f3748930f388ca18ee5b3",
+        measurementId: "G-NQ278B2NPB"
+    };
+
+    firebase.initializeApp(firebaseConfig);
+
+    var username = $("#username").val();
+    var usercomment = $("#usercomment").val();
+
+    var ref = firebase.database().ref('comment');
+    ref.once('value', function (snapshot) {
+        snapshot.forEach(function (childSnapshot) {
+            var childData = childSnapshot.val();
+            var desc = document.getElementById("desc");
+            var div1 = document.createElement("h5");
+            var div2 = document.createElement("p");
+            var div3 = document.createElement("p");
+
+            div2.className = "date";
+            div3.className = "comment";
+
+            div1.innerHTML = childData.name;
+            div2.innerHTML = childData.time;
+            div3.innerHTML = childData.comment;
+            desc.appendChild(div1);
+            desc.appendChild(div2);
+            desc.appendChild(div3);
+        });
+    });
+
+    function postComment() {
+        var time = new Date().getFullYear() + '-' + checkFormat(new Date().getMonth() + 1) + '-' + checkFormat(new Date().getDate()) +
+            ' ' + checkFormat(new Date().getHours()) + ':' + checkFormat(new Date().getMinutes()) + ':' + checkFormat(new Date().getSeconds());
+        var name = $("#name").val();
+        var comment = $("#comment").val();
+        if (name && comment) {
+            firebase.database().ref('comment/' + time).set({
+                name: name,
+                time: time,
+                comment: comment
+            }).then(() => {
+                alert("提交完成");
+                setTimeout(location.reload());
+            });
+        }
+    }
+
+    function checkFormat(i) {
+        if (i < 10) {
+            i = "0" + i;
+        }
+        return i;
+    }
+</script>
+</body>
+
+</html>
